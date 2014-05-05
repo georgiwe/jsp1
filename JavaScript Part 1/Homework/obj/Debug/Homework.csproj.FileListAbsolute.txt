@@ -1,5 +1,0 @@
-C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\WebFundamentalsCourse\JavaScript Part 1\Homework\bin\Homework.dll
-C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\WebFundamentalsCourse\JavaScript Part 1\Homework\bin\Homework.pdb
-C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\WebFundamentalsCourse\JavaScript Part 1\Homework\obj\Debug\Homework.csprojResolveAssemblyReference.cache
-C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\WebFundamentalsCourse\JavaScript Part 1\Homework\obj\Debug\Homework.dll
-C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\WebFundamentalsCourse\JavaScript Part 1\Homework\obj\Debug\Homework.pdb
