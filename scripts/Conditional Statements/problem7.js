@@ -5,7 +5,7 @@
     var num4 = parseFloat(document.getElementById('hw3-prob7-input-n4').value);
     var num5 = parseFloat(document.getElementById('hw3-prob7-input-n5').value);
 
-    if (checkNumericValues([num1, num2, num3, num4, num5] === false)) {
+    if (checkNumericValues([num1, num2, num3, num4, num5]) === false) {
         alert('Invalid value(s)!');
         return;
     }
