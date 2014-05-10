@@ -50,7 +50,7 @@ body #wrapper #hw-ul > li > ul.problems-list {
   display: none;
 }
 body #wrapper #hw-ul > li > ul.problems-list > li {
-  margin-left: 15px;
+  margin-left: 25px;
 }
 body #wrapper #hw-ul > li > ul.problems-list > li div {
   min-width: 100px;
