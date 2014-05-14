@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Times New Roman', serif;
+  color: #ffffff;
+  padding: 5px;
+  background: #000000;
+  background: -moz-linear-gradient(-45deg, #000000 0%, #ffffff 100%);
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #000000), color-stop(100%, #ffffff));
+  background: -webkit-linear-gradient(-45deg, #000000 0%, #ffffff 100%);
+  background: -o-linear-gradient(-45deg, #000000 0%, #ffffff 100%);
+  background: -ms-linear-gradient(-45deg, #000000 0%, #ffffff 100%);
+  background: linear-gradient(135deg, #000000 0%, #ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@col1', endColorstr='@col2', GradientType=1);
+  background-attachment: fixed;
+}
+body h1 {
+  color: #d91a1a;
+}
+body h2 {
+  color: #11ba14;
+  margin-bottom: 10px;
+}
+body button {
+  margin-top: 10px;
+  margin-left: -3px;
+  padding: 2px 5px;
+}
+body label {
+  display: inline-block;
+}
+body a {
+  text-decoration: none;
+  color: #ffffff;
+}
+body input {
+  margin-bottom: 5px;
+}
+body ul {
+  list-style-type: none;
+}
+body ul#hw-ul {
+  width: 200px;
+  border: 2px outset #fff;
+  border-radius: 5px;
+  padding: 5px 0;
+}
+body ul#hw-ul > li {
+  text-align: left;
+  padding-left: 10px;
+}
+body ul#hw-ul > li > .hw-li {
+  display: block;
+  width: 100%;
+}
+body ul#hw-ul > li > .hw-li:hover {
+  text-decoration: underline;
+}
+body .problems-list {
+  display: none;
+  margin-left: 20px;
+}
+body .sol-body {
+  display: none;
+  position: absolute;
+  left: 230px;
+  top: 0;
+  width: 750px;
+}
+body .display-for-value {
+  display: inline-block;
+}
+/*homework-specific settings*/
+.hw3-prob7 label {
+  width: 87px;
+}
+.hw2-prob3 label {
+  width: 40px;
+}
+.hw5-prob2 label {
+  width: 160px;
+}
+.hw5-prob3 small {
+  margin-top: -7px;
+  margin-left: -2px;
+  display: block;
+}
+#hw3-prob8-result {
+  margin-top: 30px;
+  font-size: 30px;
+}
+.block-right {
+  display: block;
+  text-align: left;
+  font-size: 40px;
+  margin-top: 20px;
+}
+.block-right#hw3-prob4-result {
+  font-size: 60px;
+}
+.block-right#hw3-prob5-result {
+  font-size: 60px;
+}
+.block-right#hw3-prob6-result {
+  font-size: 30px;
+}
+.block-right#hw3-prob7-result {
+  font-size: 90px;
+  top: 75px;
+  left: 300px;
+}
