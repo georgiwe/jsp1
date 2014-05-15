@@ -4,6 +4,20 @@
     var resultField = document.getElementById('hw3-prob5-result');
     var output;
 
+    output = getDigitName(digit);
+
+    if (output != -1) {
+        resultField.textContent = output + '.';
+    } else {
+        alert('Invalid input!');
+        resultField.textContent = '';
+    }
+}
+
+function getDigitName(digit) {
+
+    var output;
+
     switch (digit) {
         case 0: output = 'Zero'; break;
         case 1: output = 'One'; break;
@@ -16,10 +30,8 @@
         case 8: output = 'Eight'; break;
         case 9: output = 'Nine'; break;
 
-        default: alert('Invalid input!');
-            resultField.textContent = '';
-            return;
+        default: return -1;
     }
 
-    resultField.textContent = output + '.';
+    return output;
 }

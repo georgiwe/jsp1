@@ -25,7 +25,6 @@ body h2 {
 }
 body button {
   margin-top: 10px;
-  margin-left: -3px;
   padding: 2px 5px;
 }
 body label {
@@ -57,6 +56,13 @@ body ul#hw-ul > li > .hw-li {
 }
 body ul#hw-ul > li > .hw-li:hover {
   text-decoration: underline;
+  color: #1bbaf6;
+}
+body .sel-butt {
+  display: block;
+}
+body .sel-butt:hover {
+  color: #1bbaf6;
 }
 body .problems-list {
   display: none;
@@ -86,6 +92,41 @@ body .display-for-value {
   margin-top: -7px;
   margin-left: -2px;
   display: block;
+}
+.hw6-prob3 label:nth-of-type(-n+3) {
+  width: 120px;
+}
+.hw6-prob3 label:first-of-type {
+  display: block;
+}
+.hw6-prob3 textarea {
+  min-height: 200px;
+  min-width: 500px;
+  overflow-y: scroll;
+  padding-top: 5px;
+  padding-left: 7px;
+}
+.hw6-prob3 button {
+  margin-left: 1px;
+}
+.hw6-prob3 button:first-of-type {
+  margin-left: 120px;
+}
+.hw6-prob3 .block-right {
+  width: 500px;
+}
+.hw6-prob3 input[type=text] {
+  width: 160px;
+  padding: 0 5px;
+}
+.hw6-prob5 label {
+  width: 60px;
+}
+.hw6-prob5 button:last-of-type {
+  margin-top: 35px;
+}
+.hw6-prob5 .block-right {
+  font-size: 25px;
 }
 #hw3-prob8-result {
   margin-top: 30px;
